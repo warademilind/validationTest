@@ -18,7 +18,7 @@ import org.openqa.selenium.support.events.EventFiringWebDriver;
  */
 public class App 
 {
-    public static void main( String[] args )
+    public static void main( String[] args ) throws Exception
     {
         		// TODO Auto-generated method stub
 DesiredCapabilities cap=DesiredCapabilities.chrome();
@@ -38,5 +38,5 @@ DesiredCapabilities cap=DesiredCapabilities.chrome();
 		//Copy file at destination
 		FileUtils.copyFile(SrcFile, DestFile);
 		}
-    }
+    
 }
